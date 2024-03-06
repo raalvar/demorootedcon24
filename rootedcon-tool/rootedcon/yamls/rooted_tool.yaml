@@ -1,0 +1,15 @@
+rootedcon.tools.rooted_tool.check_prompt:
+  name: RootedCon Tool
+  type: python
+  inputs:
+    ats:
+      type:
+        - CustomConnection
+    input_text:
+      type:
+        - string
+  description: RootedCon Tool Example
+  module: rootedcon.tools.rooted_tool
+  function: check_prompt
+  icon: 
+    data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACL0lEQVR4nH2TPUszURCFn7uuCQhqYSwEwSIQ2Auxix+NFoJFGhHL2EQsxF4sLfwLFqJiqYV2htj4B1JJJCksrIKCJCQERNCN91hI9k00vAducZmZMzNnZoy1VgzA8PAwiUSCTqdDo9FAGuiG3/uRRCaTIZ/PMz8/TzweB6DdbnN3d8fZ2Rm1Wg1jTBRjuhUYY9jb22NzcxPP8wjDkHK5zMjICEEQYIzh/f2dg4MDbm9v/2W11ioIAp2fn+vr60vOOb28vCibzSoIAgVBoJ2dHX18fEiSwjDU7u6urLWy1gprrXK5nDqdjiTJOaf9/X0tLy+rVCrp5uZG6XRaFxcX6qJer2tubk7WWnmS2NraYmhoKKqqWq2yurpKJpMhm82SSqWoVCqRPZFIsL6+DoAXi8VYXFzsU9Y5h+//6GuMYWZmhsnJyb5JLC0tIQl/amoqUhugUqnQbrd5eHjg9PQUgFQqhSSazSYTExMAJJPJH4Jupi7K5TKtVotms8n9/X3fiFdWViIC3/eRhPf6+opz7s+C9M56EJ6fn/E8D+/t7Y1qtfpf59+QRKlUAsADuLy87BNI0p/Xi8/PT66vrzHG4BtjKBQKrK2tsbCwQDKZZGNj408LkhgdHcU5x8nJSbTS0SqPjY1xfHxMOp3+MQwgkMTV1RWHh4dRVab3GmOxGNvb2+RyOcbHx/uCa7UaR0dHFIvFPmLz+5wlEY/HmZ2dZXp6mjAMeXp64vHxceBJfwNjNCioi1zFyAAAAABJRU5ErkJggg==
